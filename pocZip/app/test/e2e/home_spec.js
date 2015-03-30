@@ -5,7 +5,7 @@ describe('Recharge app home', function () {
   page = new HomePage();
 
   it('should automatically redirect to /home when location hash/fragment is empty', function () {
-    browser.get('www.google.com');
+    browser.get('#/');
     expect(browser.getLocationAbsUrl()).toEqual(browser.baseUrl + '#/home');
   });
 
