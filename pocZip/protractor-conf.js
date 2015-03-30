@@ -2,7 +2,7 @@
 var HtmlReporter = require('protractor-html-screenshot-reporter');
 //var path = require('path');
 exports.config = {
-  allScriptsTimeout: 11000,
+  allScriptsTimeout: 1000,
 
   specs: [
     'app/test/e2e/*.js'
